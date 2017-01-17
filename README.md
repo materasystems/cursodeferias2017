@@ -1,6 +1,6 @@
 # QUER DAR UM UP NAS SUAS HABILIDADES EM 2017?
 
-De 16/01 a 27/01
+De 16/01/2017 a 27/01/2017
 
 Enquanto alguns descansam nas férias, você quer dar um UP nas suas habilidades para sair na frente e aproveitar melhor as oportunidades do mercado de trabalho?
 
