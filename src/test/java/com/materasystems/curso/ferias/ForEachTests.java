@@ -127,10 +127,10 @@ public class ForEachTests {
      * 
      */
     @Test
-    public void transformarNumeroEmStringUsandoSufixo() {
+    public void transformarNumeroEmStringUsandoPrefixo() {
         
         int[] entrada = new int[] { 0, 1, 2, 3 };
-        String[] resultado = forEach.transformaUsandoSufixo(entrada, "O Número é: ");
+        String[] resultado = forEach.transformaUsandoPrefixo(entrada, "O Número é: ");
         
         Assert.assertArrayEquals( 
                 new String[] { "O Número é: 0", "O Número é: 1", "O Número é: 2", "O Número é: 3" }, resultado);

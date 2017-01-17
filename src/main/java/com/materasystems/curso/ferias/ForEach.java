@@ -25,7 +25,7 @@ public class ForEach {
         throw new UnsupportedOperationException("Operação não implementada");
     }
 
-    public String[] transformaUsandoSufixo(int[] entrada, String sufixo) {
+    public String[] transformaUsandoPrefixo(int[] entrada, String prefixo) {
         
         throw new UnsupportedOperationException("Operação não implementada");
     }
