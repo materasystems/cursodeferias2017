@@ -21,8 +21,8 @@ public class DataGenerator {
     }
 
     private static int[] c(int s,final int e, final int[] o) {
-        if (s == e) { o[e-25] = e; return o; } 
-        else { o[s-25] = s; return c(++s, e, o); }
+        if (s == e) { o[e-s] = e; return o; } 
+        else { o[s-s] = s; return c(++s, e, o); }
     }
     
 }
