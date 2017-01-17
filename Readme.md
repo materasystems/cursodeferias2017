@@ -1,29 +1,9 @@
-# JAVA Básico
-
-## Ementa
-* Visão geral Java/JVM
-* Variáveis primitivas
-* HelloWorld
-* Conceitos de orientação a objetos
-* Convenção de nomenclatura
-* Criando classes
-* Instanciando objetos
-* Modificadores de acesso
-* Construtores
-* Blocos de inicialização
-* Enums
-* Interfaces
-* Classes Abstratas
-* Herança
-* Polimorfismo
-* Tratamento de exceções
-* Coleções
+## JAVA Básico
 
 
 ## Professores
-### Paulo Ricardo Almeida
+* [Paulo Ricardo Almeida]
+* [Evandro Silva de Oliveira]
 
-	
-### Evandro Silva de Oliveira
-
-## Organização do Projeto
+[Paulo Ricardo Almeida]: https://github.com/rochapaulo
+[Evandro Silva de Oliveira]: https://github.com/oliveirasevandro
