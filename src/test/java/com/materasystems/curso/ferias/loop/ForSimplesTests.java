@@ -7,7 +7,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 import com.materasystems.curso.ferias.loop.ForSimples;
-import com.materasystems.curso.ferias.util.DataGenerator;
+import com.materasystems.curso.ferias.util.Expectations;
 
 /**
  * Suite de testes para exercitar o uso do for simples
@@ -18,10 +18,10 @@ import com.materasystems.curso.ferias.util.DataGenerator;
  */
 public class ForSimplesTests {
 
-    private static final int[] SEQUENCIA_25_A_500 = DataGenerator.sq(25, 500);
+    private static final int[] SEQUENCIA_25_A_500 = Expectations.sq(25, 500);
     private static final int[] NUMEROS_PARES_0_A_20 = new int[] { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };    
     
-    private ForSimples forSimples = new ForSimples();
+    private final ForSimples forSimples = new ForSimples();
     
     /**
      * Implementar o método da classe #ForSimples para filtrar

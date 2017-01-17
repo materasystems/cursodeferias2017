@@ -10,9 +10,9 @@ package com.materasystems.curso.ferias.util;
  * @since 2017
  * 
  */
-public class DataGenerator {
+public class Expectations {
 
-    private DataGenerator() {
+    private Expectations() {
         super();
     }
 
@@ -23,6 +23,10 @@ public class DataGenerator {
     private static int[] c(int s,final int e, final int[] o) {
         if (s == e) { o[e-s] = e; return o; } 
         else { o[s-s] = s; return c(++s, e, o); }
+    }
+    
+    public static int pa(int nsimo) {
+        return ((1 + nsimo) * nsimo) / 2;
     }
     
 }
