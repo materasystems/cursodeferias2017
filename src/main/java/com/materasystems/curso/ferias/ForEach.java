@@ -5,7 +5,8 @@ package com.materasystems.curso.ferias;
 
 /**
  * 
- * @author paulo
+ * @author rochapaulo
+ * @since 2017
  *
  */
 public class ForEach {
