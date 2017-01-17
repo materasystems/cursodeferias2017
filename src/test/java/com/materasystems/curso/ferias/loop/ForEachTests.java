@@ -1,11 +1,11 @@
 /*
  * MATERA Systems, Curso de Férias 2017 - Maringá
  */
-package com.materasystems.curso.ferias;
+package com.materasystems.curso.ferias.loop;
 import org.junit.Assert;
 import org.junit.Test;
 
-import com.materasystems.curso.ferias.ForEach;
+import com.materasystems.curso.ferias.loop.ForEach;
 
 /**
  * Suite de testes para exercitar o uso do foreach (Loop Aprimorado)

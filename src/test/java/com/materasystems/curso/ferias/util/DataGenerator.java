@@ -1,7 +1,7 @@
 /*
  * MATERA Systems, Curso de Férias 2017 - Maringá
  */
-package com.materasystems.curso.ferias;
+package com.materasystems.curso.ferias.util;
 
 /**
  * Gerador de dados
