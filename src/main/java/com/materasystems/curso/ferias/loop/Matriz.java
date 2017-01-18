@@ -35,7 +35,7 @@ public class Matriz {
      * @param coluna
      * @return
      */
-    public static int[] getElemento(int[][] matriz, int linha, int coluna) {
+    public static int getElemento(int[][] matriz, int linha, int coluna) {
         
         throw new UnsupportedOperationException("Operação não implementada");
     }

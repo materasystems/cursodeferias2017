@@ -18,6 +18,7 @@ import com.materasystems.curso.ferias.util.Expectations;
  */
 public class ForSimplesTests {
 
+    private static final int DELTA = 0;
     private static final int[] SEQUENCIA_25_A_500 = Expectations.sq(25, 500);
     private static final int[] NUMEROS_PARES_0_A_20 = new int[] { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };    
     
@@ -153,12 +154,12 @@ public class ForSimplesTests {
      *  
      */
     @Test
-    public void transformarStringsEmInteiros() {
+    public void transformarStringsEmDoubles() {
         
         String[] entrada = new String[] { "-50.0001", "50.2", "-992.665", "25", "3000001.0251" };
         double[] resultado = forSimples.transformarEmDouble(entrada);
         
-        Assert.assertEquals(new double[] { -50.0001, 50.2, -992.665, 25.0, 3000001.0251 }, resultado);
+        Assert.assertArrayEquals(new double[] { -50.0001, 50.2, -992.665, 25.0, 3000001.0251 }, resultado, DELTA);
     }
     
     /**
@@ -182,7 +183,7 @@ public class ForSimplesTests {
     @Test
     public void listarTodosNumerosParesDe0a20() {
         
-        int[] resultado = forSimples.gerarNumerosEntre(0, 20);
+        int[] resultado = forSimples.gerarNumerosPares(0, 20);
         
         Assert.assertArrayEquals(NUMEROS_PARES_0_A_20, resultado);
     }

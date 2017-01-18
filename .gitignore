@@ -11,6 +11,10 @@ local.properties
 .recommenders
 /target
 
+#intelij
+*.idea/
+*.iml
+
 # Eclipse Core
 .project
 

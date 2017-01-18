@@ -37,7 +37,7 @@ public class MatrizTest {
                 { 320,  16, -40, 80}, 
                 { 264, 248, 8, 792 }, 
                 { -8, 168, 408, -72}, 
-                { 256, 272, -24, 60}
+                { 256, 272, -24, 160}
             };
          
     /**
@@ -58,7 +58,7 @@ public class MatrizTest {
     @Test
     public void getElemento() {
     
-        int[] elemento = Matriz.getElemento(MATRIZ_4_X_4_VARIOS_VALORES, 2, 3);
+        int elemento = Matriz.getElemento(MATRIZ_4_X_4_VARIOS_VALORES, 2, 3);
         Assert.assertEquals(-9, elemento);
     }
  
