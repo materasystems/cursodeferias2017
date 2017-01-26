@@ -73,14 +73,23 @@ public class LinkedList<T> {
             throw new IndexOutOfBoundsException();
         }
         
-        Node previous = null;
-        Node current = head;
-        while (index > 0) {
-            previous = current;
-            current = current.next;
-            index--;
+        if (index == 0) {
+
+            head = head.next;
+            
+        } else {
+            
+            Node previous = null;
+            Node current = head;
+            while (index > 0) {
+                previous = current;
+                current = current.next;
+                index--;
+            }
+            previous.next = current.next;
+            
         }
-        previous.next = current.next;
+        
         size--;
     }
 
@@ -165,6 +174,29 @@ public class LinkedList<T> {
      */
     public boolean isEmpty() {
         return size == 0;
+    }
+    
+    /**
+     * indexOf value
+     * 
+     * @param value
+     * @return
+     */
+    public int indexOf(T value) {
+        
+        if (value == null) 
+            throw new NullPointerException();
+        
+        int idx = 0;
+        Node current = head;
+        while (current != null) {
+            if (value.equals(current.value)) {
+                return idx;
+            }
+            idx++;
+            current = current.next;
+        }
+        return -1;
     }
     
 }

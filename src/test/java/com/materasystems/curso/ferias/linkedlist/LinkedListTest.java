@@ -79,6 +79,28 @@ public class LinkedListTest {
         Assert.assertEquals("Paulo", list.get(0));
     }
     
+    @Test
+    public void indexOfElementFound() {
+        
+        LinkedList<String> list = new LinkedList<>();
+        list.add("Paulo");
+        list.add("Evandro");
+        list.add("MATERA Systems");
+        
+        Assert.assertEquals(1, list.indexOf("Evandro"));
+    }
+    
+    @Test
+    public void indexOfElementNotFound() {
+        
+        LinkedList<String> list = new LinkedList<>();
+        list.add("Paulo");
+        list.add("Evandro");
+        list.add("MATERA Systems");
+        
+        Assert.assertEquals(-1, list.indexOf("Maringá"));
+    }
+    
     @Test(expected = IndexOutOfBoundsException.class)
     public void accessNegativeIndex() {
         
