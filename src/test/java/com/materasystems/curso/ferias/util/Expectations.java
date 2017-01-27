@@ -3,8 +3,6 @@
  */
 package com.materasystems.curso.ferias.util;
 
-import java.util.Arrays;
-
 /**
  * Gerador de dados
  * 
